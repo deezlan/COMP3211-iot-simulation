@@ -1,7 +1,14 @@
 import requests
 import time
 import matplotlib.pyplot as plt
+import json
 import os
+
+# Load environment variables from local.settings.json
+with open("local.settings.json") as f:
+    settings = json.load(f)
+    for k, v in settings.get("Values", {}).items():
+        os.environ[k] = v
 
 URL = os.environ["FUNC_URL_GENERATE_SENSOR_DATA"]
 
@@ -16,7 +23,8 @@ URL = os.environ["FUNC_URL_GENERATE_SENSOR_DATA"]
 # time.sleep(2)
 
 # Real tests
-test_sizes = [10, 20, 50, 100]
+# test_sizes = [10, 20, 50, 100]
+test_sizes = [10, 20]
 # test_sizes = [100, 50, 20, 10] # Reversed to diagnose cold start issues
 results = []
 
