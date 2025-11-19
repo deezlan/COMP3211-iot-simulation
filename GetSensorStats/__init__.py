@@ -27,6 +27,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 AVG(CO2) AS AvgCO2
             FROM SensorData
             GROUP BY SensorID
+            ORDER BY SensorID
         """)
 
         columns = [column[0] for column in cursor.description]
