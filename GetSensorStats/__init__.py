@@ -8,7 +8,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('GetSensorStats function triggered.')
 
     try:
-        conn = pyodbc.connect(os.environ["DB_CONN"])
+        conn = pyodbc.connect(os.environ["SqlConnectionString"])
         cursor = conn.cursor()
 
         cursor.execute("""
@@ -33,6 +33,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         columns = [column[0] for column in cursor.description]
         results = [dict(zip(columns, row)) for row in cursor.fetchall()]
         conn.close()
+        
+        print(results)
 
         return func.HttpResponse(json.dumps(results, indent=2), mimetype="application/json", status_code=200)
 

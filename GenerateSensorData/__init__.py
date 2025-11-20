@@ -17,7 +17,7 @@ def generate_sensor_data():
     return sensors
 
 def insert_to_db(sensor_data):
-    conn = pyodbc.connect(os.environ["DB_CONN"])
+    conn = pyodbc.connect(os.environ["SqlConnectionString"])
     cursor = conn.cursor()
     for sensor in sensor_data:
         cursor.execute("""
