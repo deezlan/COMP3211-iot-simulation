@@ -15,16 +15,16 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             SELECT SensorID,
                 MIN(Temperature) AS MinTemp,
                 MAX(Temperature) AS MaxTemp,
-                AVG(Temperature) AS AvgTemp,
+                ROUND(AVG(CAST(Temperature AS FLOAT)), 2) AS AvgTemp,
                 MIN(WindSpeed) AS MinWind,
                 MAX(WindSpeed) AS MaxWind,
-                AVG(WindSpeed) AS AvgWind,
+                ROUND(AVG(CAST(WindSpeed AS FLOAT)), 2) AS AvgWind,
                 MIN(Humidity) AS MinHumidity,
                 MAX(Humidity) AS MaxHumidity,
-                AVG(Humidity) AS AvgHumidity,
+                ROUND(AVG(CAST(Humidity AS FLOAT)), 2) AS AvgHumidity,
                 MIN(CO2) AS MinCO2,
                 MAX(CO2) AS MaxCO2,
-                AVG(CO2) AS AvgCO2
+                ROUND(AVG(CAST(CO2 AS FLOAT)), 2) AS AvgCO2
             FROM SensorData
             GROUP BY SensorID
             ORDER BY SensorID
