@@ -56,9 +56,9 @@ warm_results = run_test("Warm Start")
 
 # Plot and save the results
 plt.figure(figsize=(10, 6))
-plt.plot(test_sizes, cold_results, marker='o', label="Cold Start")
-plt.plot(test_sizes, warm_results, marker='o', label="Warm Start")
-plt.title("Task 1: Azure Function Performance – Cold vs Warm Start")
+plt.plot(test_sizes, cold_results, marker='o', label="Cold Start", color='blue')
+plt.plot(test_sizes, warm_results, marker='o', label="Warm Start", color='red')
+plt.title("Task 1: GenerateSensorData – Cold vs Warm Start Performance")
 plt.xlabel("Number of Sequential Requests")
 plt.ylabel("Average Response Time (ms)")
 plt.legend()
