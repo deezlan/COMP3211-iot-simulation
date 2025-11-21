@@ -34,7 +34,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         results = [dict(zip(columns, row)) for row in cursor.fetchall()]
         conn.close()
         
-        print(results)
+        logging.info(json.dumps(results, indent=2))
 
         return func.HttpResponse(json.dumps(results, indent=2), mimetype="application/json", status_code=200)
 
