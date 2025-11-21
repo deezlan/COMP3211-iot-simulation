@@ -1,0 +1,81 @@
+﻿timestamp [UTC],message,operation_Name
+"21/11/2025, 16:07:31.012",[T4] Task 2 HTTP responded at 2025-11-21T16:07:31.010238+00:00 (Delta: 0.098 seconds),task3b_sql_trigger
+"21/11/2025, 16:07:30.913",[T3] SQL Trigger fired at 2025-11-21T16:07:30.912178+00:00,task3b_sql_trigger
+"21/11/2025, 16:07:30.100",[T2] Task 1 HTTP function responded at 2025-11-21T16:07:30.098898+00:00 (Delta: 0.099 seconds),task3a_simulate_timer
+"21/11/2025, 16:07:30.001",[T1] Task 3a Timer trigger started at 2025-11-21T16:07:30.000272+00:00,task3a_simulate_timer
+"21/11/2025, 16:07:20.720",[T4] Task 2 HTTP responded at 2025-11-21T16:07:20.717268+00:00 (Delta: 0.098 seconds),task3b_sql_trigger
+"21/11/2025, 16:07:20.621",[T3] SQL Trigger fired at 2025-11-21T16:07:20.619372+00:00,task3b_sql_trigger
+"21/11/2025, 16:07:20.092",[T2] Task 1 HTTP function responded at 2025-11-21T16:07:20.090806+00:00 (Delta: 0.088 seconds),task3a_simulate_timer
+"21/11/2025, 16:07:20.004",[T1] Task 3a Timer trigger started at 2025-11-21T16:07:20.003118+00:00,task3a_simulate_timer
+"21/11/2025, 16:07:10.449",[T4] Task 2 HTTP responded at 2025-11-21T16:07:10.447037+00:00 (Delta: 0.121 seconds),task3b_sql_trigger
+"21/11/2025, 16:07:10.327",[T3] SQL Trigger fired at 2025-11-21T16:07:10.326115+00:00,task3b_sql_trigger
+"21/11/2025, 16:07:10.108",[T2] Task 1 HTTP function responded at 2025-11-21T16:07:10.106437+00:00 (Delta: 0.102 seconds),task3a_simulate_timer
+"21/11/2025, 16:07:10.006",[T1] Task 3a Timer trigger started at 2025-11-21T16:07:10.004719+00:00,task3a_simulate_timer
+"21/11/2025, 16:07:01.145",[T4] Task 2 HTTP responded at 2025-11-21T16:07:01.142774+00:00 (Delta: 0.096 seconds),task3b_sql_trigger
+"21/11/2025, 16:07:01.048",[T3] SQL Trigger fired at 2025-11-21T16:07:01.046922+00:00,task3b_sql_trigger
+"21/11/2025, 16:07:00.117",[T2] Task 1 HTTP function responded at 2025-11-21T16:07:00.115600+00:00 (Delta: 0.115 seconds),task3a_simulate_timer
+"21/11/2025, 16:07:00.002",[T1] Task 3a Timer trigger started at 2025-11-21T16:07:00.000838+00:00,task3a_simulate_timer
+"21/11/2025, 16:06:50.859",[T4] Task 2 HTTP responded at 2025-11-21T16:06:50.857637+00:00 (Delta: 0.089 seconds),task3b_sql_trigger
+"21/11/2025, 16:06:50.770",[T3] SQL Trigger fired at 2025-11-21T16:06:50.768794+00:00,task3b_sql_trigger
+"21/11/2025, 16:06:50.124",[T2] Task 1 HTTP function responded at 2025-11-21T16:06:50.122744+00:00 (Delta: 0.122 seconds),task3a_simulate_timer
+"21/11/2025, 16:06:50.004",[T1] Task 3a Timer trigger started at 2025-11-21T16:06:50.000832+00:00,task3a_simulate_timer
+"21/11/2025, 16:06:40.603",[T4] Task 2 HTTP responded at 2025-11-21T16:06:40.600673+00:00 (Delta: 0.090 seconds),task3b_sql_trigger
+"21/11/2025, 16:06:40.511",[T3] SQL Trigger fired at 2025-11-21T16:06:40.510389+00:00,task3b_sql_trigger
+"21/11/2025, 16:06:40.119",[T2] Task 1 HTTP function responded at 2025-11-21T16:06:40.116145+00:00 (Delta: 0.111 seconds),task3a_simulate_timer
+"21/11/2025, 16:06:40.005",[T1] Task 3a Timer trigger started at 2025-11-21T16:06:40.004978+00:00,task3a_simulate_timer
+"21/11/2025, 16:06:30.335",[T4] Task 2 HTTP responded at 2025-11-21T16:06:30.333662+00:00 (Delta: 0.085 seconds),task3b_sql_trigger
+"21/11/2025, 16:06:30.250",[T3] SQL Trigger fired at 2025-11-21T16:06:30.248241+00:00,task3b_sql_trigger
+"21/11/2025, 16:06:30.114",[T2] Task 1 HTTP function responded at 2025-11-21T16:06:30.110293+00:00 (Delta: 0.109 seconds),task3a_simulate_timer
+"21/11/2025, 16:06:30.002",[T1] Task 3a Timer trigger started at 2025-11-21T16:06:30.001519+00:00,task3a_simulate_timer
+"21/11/2025, 16:06:21.073",[T4] Task 2 HTTP responded at 2025-11-21T16:06:21.071296+00:00 (Delta: 0.126 seconds),task3b_sql_trigger
+"21/11/2025, 16:06:20.947",[T3] SQL Trigger fired at 2025-11-21T16:06:20.945718+00:00,task3b_sql_trigger
+"21/11/2025, 16:06:20.104",[T2] Task 1 HTTP function responded at 2025-11-21T16:06:20.103113+00:00 (Delta: 0.102 seconds),task3a_simulate_timer
+"21/11/2025, 16:06:20.002",[T1] Task 3a Timer trigger started at 2025-11-21T16:06:20.000878+00:00,task3a_simulate_timer
+"21/11/2025, 16:06:10.770",[T4] Task 2 HTTP responded at 2025-11-21T16:06:10.768592+00:00 (Delta: 0.094 seconds),task3b_sql_trigger
+"21/11/2025, 16:06:10.676",[T3] SQL Trigger fired at 2025-11-21T16:06:10.674624+00:00,task3b_sql_trigger
+"21/11/2025, 16:06:10.111",[T2] Task 1 HTTP function responded at 2025-11-21T16:06:10.109511+00:00 (Delta: 0.105 seconds),task3a_simulate_timer
+"21/11/2025, 16:06:10.005",[T1] Task 3a Timer trigger started at 2025-11-21T16:06:10.004159+00:00,task3a_simulate_timer
+"21/11/2025, 16:06:00.508",[T4] Task 2 HTTP responded at 2025-11-21T16:06:00.506187+00:00 (Delta: 0.097 seconds),task3b_sql_trigger
+"21/11/2025, 16:06:00.410",[T3] SQL Trigger fired at 2025-11-21T16:06:00.409231+00:00,task3b_sql_trigger
+"21/11/2025, 16:06:00.105",[T2] Task 1 HTTP function responded at 2025-11-21T16:06:00.103503+00:00 (Delta: 0.099 seconds),task3a_simulate_timer
+"21/11/2025, 16:06:00.005",[T1] Task 3a Timer trigger started at 2025-11-21T16:06:00.004863+00:00,task3a_simulate_timer
+"21/11/2025, 16:05:51.237",[T4] Task 2 HTTP responded at 2025-11-21T16:05:51.235195+00:00 (Delta: 0.081 seconds),task3b_sql_trigger
+"21/11/2025, 16:05:51.156",[T3] SQL Trigger fired at 2025-11-21T16:05:51.154298+00:00,task3b_sql_trigger
+"21/11/2025, 16:05:50.125",[T2] Task 1 HTTP function responded at 2025-11-21T16:05:50.123856+00:00 (Delta: 0.121 seconds),task3a_simulate_timer
+"21/11/2025, 16:05:50.003",[T1] Task 3a Timer trigger started at 2025-11-21T16:05:50.002678+00:00,task3a_simulate_timer
+"21/11/2025, 16:05:40.986",[T4] Task 2 HTTP responded at 2025-11-21T16:05:40.984291+00:00 (Delta: 0.085 seconds),task3b_sql_trigger
+"21/11/2025, 16:05:40.901",[T3] SQL Trigger fired at 2025-11-21T16:05:40.899494+00:00,task3b_sql_trigger
+"21/11/2025, 16:05:40.119",[T2] Task 1 HTTP function responded at 2025-11-21T16:05:40.117705+00:00 (Delta: 0.115 seconds),task3a_simulate_timer
+"21/11/2025, 16:05:40.003",[T1] Task 3a Timer trigger started at 2025-11-21T16:05:40.003137+00:00,task3a_simulate_timer
+"21/11/2025, 16:05:31.727",[T4] Task 2 HTTP responded at 2025-11-21T16:05:31.724933+00:00 (Delta: 0.093 seconds),task3b_sql_trigger
+"21/11/2025, 16:05:31.633",[T3] SQL Trigger fired at 2025-11-21T16:05:31.631602+00:00,task3b_sql_trigger
+"21/11/2025, 16:05:30.745",[T2] Task 1 HTTP function responded at 2025-11-21T16:05:30.743064+00:00 (Delta: 0.741 seconds),task3a_simulate_timer
+"21/11/2025, 16:05:30.003",[T1] Task 3a Timer trigger started at 2025-11-21T16:05:30.001823+00:00,task3a_simulate_timer
+"21/11/2025, 16:05:20.447",[T4] Task 2 HTTP responded at 2025-11-21T16:05:20.445454+00:00 (Delta: 0.079 seconds),task3b_sql_trigger
+"21/11/2025, 16:05:20.367",[T3] SQL Trigger fired at 2025-11-21T16:05:20.366263+00:00,task3b_sql_trigger
+"21/11/2025, 16:05:20.131",[T2] Task 1 HTTP function responded at 2025-11-21T16:05:20.129585+00:00 (Delta: 0.128 seconds),task3a_simulate_timer
+"21/11/2025, 16:05:20.003",[T1] Task 3a Timer trigger started at 2025-11-21T16:05:20.001680+00:00,task3a_simulate_timer
+"21/11/2025, 16:05:11.201",[T4] Task 2 HTTP responded at 2025-11-21T16:05:11.199670+00:00 (Delta: 0.086 seconds),task3b_sql_trigger
+"21/11/2025, 16:05:11.115",[T3] SQL Trigger fired at 2025-11-21T16:05:11.113520+00:00,task3b_sql_trigger
+"21/11/2025, 16:05:10.123",[T2] Task 1 HTTP function responded at 2025-11-21T16:05:10.121609+00:00 (Delta: 0.121 seconds),task3a_simulate_timer
+"21/11/2025, 16:05:10.002",[T1] Task 3a Timer trigger started at 2025-11-21T16:05:10.000654+00:00,task3a_simulate_timer
+"21/11/2025, 16:05:00.934",[T4] Task 2 HTTP responded at 2025-11-21T16:05:00.932823+00:00 (Delta: 0.078 seconds),task3b_sql_trigger
+"21/11/2025, 16:05:00.856",[T3] SQL Trigger fired at 2025-11-21T16:05:00.854971+00:00,task3b_sql_trigger
+"21/11/2025, 16:05:00.148",[T2] Task 1 HTTP function responded at 2025-11-21T16:05:00.146271+00:00 (Delta: 0.138 seconds),task3a_simulate_timer
+"21/11/2025, 16:05:00.009",[T1] Task 3a Timer trigger started at 2025-11-21T16:05:00.007781+00:00,task3a_simulate_timer
+"21/11/2025, 16:04:50.668",[T4] Task 2 HTTP responded at 2025-11-21T16:04:50.666321+00:00 (Delta: 0.095 seconds),task3b_sql_trigger
+"21/11/2025, 16:04:50.573",[T3] SQL Trigger fired at 2025-11-21T16:04:50.570976+00:00,task3b_sql_trigger
+"21/11/2025, 16:04:50.127",[T2] Task 1 HTTP function responded at 2025-11-21T16:04:50.124170+00:00 (Delta: 0.122 seconds),task3a_simulate_timer
+"21/11/2025, 16:04:50.003",[T1] Task 3a Timer trigger started at 2025-11-21T16:04:50.001718+00:00,task3a_simulate_timer
+"21/11/2025, 16:04:41.399",[T4] Task 2 HTTP responded at 2025-11-21T16:04:41.397661+00:00 (Delta: 0.096 seconds),task3b_sql_trigger
+"21/11/2025, 16:04:41.303",[T3] SQL Trigger fired at 2025-11-21T16:04:41.301400+00:00,task3b_sql_trigger
+"21/11/2025, 16:04:40.807",[T2] Task 1 HTTP function responded at 2025-11-21T16:04:40.805316+00:00 (Delta: 0.801 seconds),task3a_simulate_timer
+"21/11/2025, 16:04:40.006",[T1] Task 3a Timer trigger started at 2025-11-21T16:04:40.004448+00:00,task3a_simulate_timer
+"21/11/2025, 16:04:31.109",[T4] Task 2 HTTP responded at 2025-11-21T16:04:31.107009+00:00 (Delta: 0.105 seconds),task3b_sql_trigger
+"21/11/2025, 16:04:31.003",[T3] SQL Trigger fired at 2025-11-21T16:04:31.002309+00:00,task3b_sql_trigger
+"21/11/2025, 16:04:30.121",[T2] Task 1 HTTP function responded at 2025-11-21T16:04:30.119015+00:00 (Delta: 0.117 seconds),task3a_simulate_timer
+"21/11/2025, 16:04:30.003",[T1] Task 3a Timer trigger started at 2025-11-21T16:04:30.001583+00:00,task3a_simulate_timer
+"21/11/2025, 16:04:20.825",[T4] Task 2 HTTP responded at 2025-11-21T16:04:20.823266+00:00 (Delta: 0.095 seconds),task3b_sql_trigger
+"21/11/2025, 16:04:20.729",[T3] SQL Trigger fired at 2025-11-21T16:04:20.728125+00:00,task3b_sql_trigger
+"21/11/2025, 16:04:20.128",[T2] Task 1 HTTP function responded at 2025-11-21T16:04:20.125822+00:00 (Delta: 0.121 seconds),task3a_simulate_timer
+"21/11/2025, 16:04:20.005",[T1] Task 3a Timer trigger started at 2025-11-21T16:04:20.004583+00:00,task3a_simulate_timer
