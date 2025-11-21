@@ -2,11 +2,11 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
-      "name": "changes",
+      "name": "sensorChanges",
       "type": "sqlTrigger",
       "direction": "in",
       "tableName": "dbo.SensorData",
-      "connectionStringSetting": "SqlConnectionString"
+      "connectionStringSetting": "connectionStringSetting"
     }
   ]
 }
