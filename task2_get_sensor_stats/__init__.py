@@ -5,7 +5,7 @@ import os
 import json
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('GetSensorStats function triggered.')
+    logging.info('Task 2 function triggered.')
 
     try:
         conn = pyodbc.connect(os.environ["SqlConnectionString"])
