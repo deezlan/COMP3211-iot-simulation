@@ -7,7 +7,7 @@ import os
 with open("local.settings.json") as f:
     settings = json.load(f)
     for k, v in settings.get("Values", {}).items():
-        os.environ[k] = v
+        os.environ[k] = str(v)
 
 URL = os.environ["FUNC_URL_GET_SENSOR_STATS"]
 
@@ -45,7 +45,7 @@ warm_results = run_test("Warm Start")
 plt.figure(figsize=(10, 6))
 plt.plot(test_sizes, cold_results, marker='o', label="Cold Start", color='blue')
 plt.plot(test_sizes, warm_results, marker='o', label="Warm Start", color='red')
-plt.title("Task 2: GetSensorStats – Cold vs Warm Start Performance")
+plt.title("Task 2: task2_get_sensor_stats – Cold vs Warm Start Performance")
 plt.xlabel("Number of Sequential Requests")
 plt.ylabel("Average Response Time (ms)")
 plt.legend()
