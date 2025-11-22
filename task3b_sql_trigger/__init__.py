@@ -6,7 +6,6 @@ import requests
 def main(sensorChanges: str):
     start_time = datetime.datetime.now(datetime.timezone.utc)
     logging.info(f"[T3] SQL Trigger fired at {start_time.isoformat()}")
-    logging.info("Raw changes: %s", sensorChanges)
 
     # Make internal call to Task 2's HTTP function
     try:

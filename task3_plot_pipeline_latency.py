@@ -36,7 +36,7 @@ for t1, t2, t3, t4 in timestamps:
     t3_to_t4.append((dt4 - dt3).total_seconds())
     t1_to_t4.append((dt4 - dt1).total_seconds())
 
-# Plot
+# Plotting as line chart
 cycles = list(range(1, len(timestamps)+1))
 plt.figure(figsize=(12, 6))
 plt.plot(cycles, t1_to_t4, label="Total Pipeline (T4 - T1)", marker='o')
